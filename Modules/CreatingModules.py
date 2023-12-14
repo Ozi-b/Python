@@ -26,3 +26,10 @@ calc_tax()
 # it can overwrite your objects with the same name in your current file causing bugs
 
 # from sales import *
+
+# Another way is to transfer functions is to just use import
+# now we can use calc_shipping and calc_tax as an object method
+# making the sales file an entire object
+# import sales
+
+# sales.calc_shipping()
