@@ -22,7 +22,8 @@ Point = namedtuple("Point", ["x", "y"])
 
 p1 = Point(x=1, y=2)
 p2 = Point(x=1, y=2)
-p1.x = 10
+# remember that tuple's cannot be mutated after their creation so line 26 will produce an error
+# p1.x = 10
 
 # Returns false because our point objects are in different locations in memory
 # Because of the __eq__ method in the point class, it will now return true
