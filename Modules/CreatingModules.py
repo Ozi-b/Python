@@ -16,7 +16,7 @@
 
 # we have now imported the two functions from the sales file into this file
 
-from ecommerce.sales import calc_shipping, calc_tax
+from ecommerce.shopping.sales import calc_shipping, calc_tax
 
 calc_shipping()
 calc_tax()
