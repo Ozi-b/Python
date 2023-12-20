@@ -29,7 +29,7 @@ print(ctime(path.stat().st_ctime))
 path.read_bytes()
 
 # returns the content of the file as a string
-print(path.read_text())
+# print(path.read_text())
 # using this method is easier then using the open() method
 # with the open function you will have to specify multiple things as seen below
 
@@ -49,9 +49,9 @@ print(path.read_text())
 # lets say i want to copy this file to a different location
 
 # source is the current file
-source = Path("Modules/ecommerce/__init__.py")
+# source = Path("Modules/ecommerce/__init__.py")
 # target path is the current directory plus the init file
-target = Path() / "__init__.py"
+# target = Path() / "__init__.py"
 
 # first we need to read the content of the source (read_text())
 # then we need to write it to the target (write_text())
@@ -60,4 +60,4 @@ target = Path() / "__init__.py"
 # there is a better way by using shutil
 # this module provides a number of high level operations for copying and moving files and directories
 # now with shutil imported, we can copy files to the target like so
-shutil.copy(source, target)
+# shutil.copy(source, target)
