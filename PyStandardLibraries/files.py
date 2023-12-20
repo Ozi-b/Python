@@ -2,7 +2,7 @@
 
 from pathlib import Path
 from time import ctime
-import shutil
+# import shutil
 path = Path("Modules/ecommerce/__init__.py")
 
 # path.exists()
